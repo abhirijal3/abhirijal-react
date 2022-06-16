@@ -1,5 +1,8 @@
 <template>
+<div>
   <Header />
+  <HomeSlider />
+</div>
 </template>
 
 <script>

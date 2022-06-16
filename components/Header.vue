@@ -1,7 +1,7 @@
 <template>
 <div>
-    <nav class="navbar navbar-expand-lg bg-white fixed-top mt-lg-2">
-  <div class="container">
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+  <div class="container-xxl">
         <NuxtLink class="navbar-brand" to="/">
             <img src="/img/abhi-logo.png" alt="" width="100" height="40">
         </NuxtLink>
