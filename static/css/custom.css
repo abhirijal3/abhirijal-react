@@ -5,7 +5,7 @@
 }
 
 .main-body {
-    margin-top: 66px;
+    margin-bottom: 30px;
 }
 
 .home-slider .slider-img {
@@ -40,4 +40,14 @@
 
 .btn:hover .github-btn {
     filter: invert(82%) sepia(100%) saturate(0%) hue-rotate(306deg) brightness(108%) contrast(102%);
+}
+
+.svg-white {
+    filter: invert(82%) sepia(100%) saturate(0%) hue-rotate(306deg) brightness(108%) contrast(102%);
+}
+
+.hero-header {
+    top: 0px;
+    right: 0px;
+    left: 0px;
 }

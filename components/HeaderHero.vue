@@ -1,6 +1,6 @@
 <template>
 <div>
-    <nav class="navbar navbar-expand-lg bg-white">
+    <nav class="navbar navbar-expand-lg position-absolute hero-header">
   <div class="container-xxl">
         <NuxtLink class="navbar-brand" to="/">
             <img src="/img/abhi-logo.png" alt="" width="100" height="40">
@@ -39,6 +39,6 @@
 
 <script>
 export default {
-    name: "Header"
+    name: "HeaderHero"
 }
 </script>
