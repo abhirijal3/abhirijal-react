@@ -18,13 +18,6 @@
     background-color: #FBFAF8 !important;
 }
 
-.accordion-button:focus {
-    border-color: #fff!important;
-    box-shadow: none!important;
-}
-
-.accordion-button:not(.collapsed) {
-    color: #000;
-    background-color: #fff;
-    box-shadow: none!important;
+.text-gray {
+    color: #666666!important;
 }
