@@ -1,20 +1,22 @@
 import './HomePage.css';
+import Navbar from '../Components/Navbar'
 
 const HomePage = () => {
     return (
         <div>
+            <Navbar />
             <div className="container position-relative px-lg-3">
                 <div style={{ 'height': '90vh' }}>
-                    <div className="position-absolute" style={{ 'top': '250px' }}>
+                    <div className="position-absolute" style={{ 'top': '150px' }}>
                         <div className="font-manrope" style={{ 'font-size': '40px' }}>Hi,</div>
                     </div>
-                    <div className="position-absolute" style={{ 'top': '350px' }}>
+                    <div className="position-absolute" style={{ 'top': '250px' }}>
                         <div className="font-manrope fw-semibold" style={{ 'font-size': '55px' }}>I am Abhi Rijal,</div>
                     </div>
-                    <div className="position-absolute" style={{ 'top': '480px' }}>
+                    <div className="position-absolute" style={{ 'top': '380px' }}>
                         <div className="font-manrope" style={{ 'font-size': '24px' }}>and I like to keep it simple.</div>
                     </div>
-                    <div className="position-absolute" style={{ 'top': '550px' }}>
+                    <div className="position-absolute" style={{ 'top': '450px' }}>
                         <div>
                             <button type="button" className="btn btn-primary bg-red border-red font-manrope" style={{ 'white-space': 'nowrap' }}>About Me <svg style={{ 'height': '25px', 'width': '25px' }} viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <g stroke-width="0"></g>
@@ -26,7 +28,7 @@ const HomePage = () => {
                             </svg></button>
                         </div>
                     </div>
-                    <div className="position-absolute" style={{ 'top': '200px', 'right': '0px' }}>
+                    <div className="position-absolute" style={{ 'top': '100px', 'right': '0px' }}>
                         <div>
                             <img src="http://via.placeholder.com/640x640" alt='Abhi Rijal' className="img-fluid" />
                         </div>
