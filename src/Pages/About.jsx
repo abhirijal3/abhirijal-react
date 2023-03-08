@@ -11,7 +11,7 @@ const About = () => {
                     <h2 className="font-manrope fw-semibold" style={{ 'font-size': '41px' }}>About Me</h2>
                 </div>
                 <div className='my-4'>
-                    <p>Hi, I am Abhi Rijal. A fullstack developer based on Lincoln, NE.</p>
+                    <p className='font-karla'>Hi, I am Abhi Rijal. A fullstack developer based on Lincoln, NE.</p>
                 </div>
             </div>
             <div className='container' style={{ 'padding-bottom': '80px' }}>

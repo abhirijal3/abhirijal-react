@@ -20,7 +20,7 @@ const Navbar = () => {
                                 <Link className="nav-link font-karla" style={{ 'font-size': '18px' }} to={'/about'}>About</Link>
                             </li>
                             <li className="nav-item mx-lg-4">
-                                <Link className="nav-link font-karla" style={{ 'font-size': '18px' }} to={'/'}>Projects</Link>
+                                <Link className="nav-link font-karla" style={{ 'font-size': '18px' }} to={'/projects'}>Projects</Link>
                             </li>
                             <li className="nav-item ms-lg-4">
                                 <Link className="nav-link font-karla" style={{ 'font-size': '18px' }} to={'/'}>Contact</Link>

@@ -1,0 +1,7 @@
+.skills-color-box {
+    transition: .55s;
+}
+
+.skills-color-box:hover {
+    border-radius: 65px!important;
+}

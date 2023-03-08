@@ -34,7 +34,12 @@ const ResumeItem = (props) => {
                 </div>
                 <div className="collapse" id={uniqueId}>
                     <div className="card card-body" style={{ 'border': 'none' }}>
-                        This is some placeholder content for a horizontal collapse. It's hidden by default and shown when triggered.
+                        <ul>
+                            <li>First line.</li>
+                            <li>First line.</li>
+                            <li>First line.</li>
+                            <li>First line.</li>
+                        </ul>
                     </div>
                 </div>
                 <hr />
