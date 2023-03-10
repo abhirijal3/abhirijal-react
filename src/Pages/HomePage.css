@@ -1,5 +1,6 @@
 .skills-color-box {
     transition: .55s;
+    cursor: pointer;
 }
 
 .skills-color-box:hover {

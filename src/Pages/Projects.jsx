@@ -12,13 +12,13 @@ const Projects = () => {
                 </div>
                 <div className='mb-5'>
                     <div className='d-flex justify-content-center column-gap-5'>
-                        <a className='active border-bottom border-3 pb-2 border-red' href={'/'}>All</a>
-                        <a href={'/'}>Frontend</a>
-                        <a href={'/'}>Backend</a>
+                        <span className='active border-bottom border-3 pb-2 border-red' href={'/'}>All</span>
+                        <span href={'/'}>Frontend</span>
+                        <span href={'/'}>Backend</span>
                     </div>
                 </div>
                 <div>
-                    <div className='row row-cols-3 row-gap-1 column-gap-5'>
+                    <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 row-gap-1 column-gap-2 column-gap-lg-5'>
                         <ProjectCard/>
                         <ProjectCard/>
                     </div>

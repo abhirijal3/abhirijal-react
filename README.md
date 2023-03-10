@@ -1,7 +1,7 @@
 # abhirj
 ![abhirj screenshot](https://user-images.githubusercontent.com/29809542/186268837-5aca1b0d-38cf-4bfb-9db8-95fa4898b2de.png)
 
-A custom personal portfolio website for (abhirj.com) on top of Nuxt.js SSR. View the [Figma template.](https://www.figma.com/file/kpws9yztncQ5tyP8kHoAOx/Abhirj?node-id=2%3A2)
+A custom personal portfolio website for (abhirijal.com) built on React. View the [Figma template.](https://www.figma.com/file/kpws9yztncQ5tyP8kHoAOx/Abhirj?node-id=2%3A2)
 Work in Progress!
 
 ## Available Scripts
