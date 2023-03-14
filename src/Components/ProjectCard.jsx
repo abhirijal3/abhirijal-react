@@ -1,7 +1,7 @@
 const ProjectCard = () => {
     return (
         <div>
-            <div class="card border-0 rounded-5">
+            <div class="card border-0 rounded-5 shadow-lg">
                 <div class="card-body p-4">
                     <div className='mb-4'>
                         <img src="http://via.placeholder.com/640x450" class="card-img-top rounded-5" alt="..." />
