@@ -11,7 +11,8 @@ const Projects = () => {
                     <h2 className="font-manrope fw-semibold text-center" style={{ 'font-size': '41px' }}>Projects</h2>
                 </div>
                 <div>
-                    <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 row-gap-1 column-gap-2 column-gap-lg-5'>
+                    <div className='row row-cols-1 row-cols-md-2 row-cols-lg-3 gx-4 gx-lg-5 gy-4'>
+                        <ProjectCard/>
                         <ProjectCard/>
                         <ProjectCard/>
                     </div>

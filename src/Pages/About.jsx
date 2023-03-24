@@ -8,7 +8,7 @@ const About = () => {
             <Navbar />
             <div className='container' style={{ 'padding-top': '80px', 'padding-bottom': '20px' }}>
                 <div>
-                    <h2 className="font-manrope fw-semibold" style={{ 'font-size': '41px' }}>About Me</h2>
+                    <h2 className="font-manrope fw-semibold mt-5" style={{ 'font-size': '41px' }}>About Me</h2>
                 </div>
                 <div className='my-4'>
                     <p className='font-karla'>Hi, I am Abhi Rijal. A fullstack developer based on Lincoln, NE.</p>
