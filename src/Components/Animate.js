@@ -19,7 +19,7 @@ const textIntro = (elem) => {
 const buttonIntro = (elem) => {
     let ctx = gsap.context(() => {
         gsap.from(elem, {
-            yPercent: +300,
+            yPercent: +400,
             opacity: 0,
             stagger: 0.2,
             duration: 1.5,

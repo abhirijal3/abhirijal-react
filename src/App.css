@@ -1,3 +1,42 @@
+:root {
+    --black: #4D455D;
+    --red: #E96479;
+    --beige: #F5E9CF;
+    --teal: #7DB9B6;
+    --light-beige: #FAF3E4;
+}
+body {
+    background-color: var(--beige);
+    color: var(--black)
+}
+
+.card-body {
+    background-color: var(--light-beige);
+}
+p {
+    font-size: 18px;
+}
+
+.bg-biege {
+    background-color: var(--beige);
+}
+
+.bg-light-biege {
+    background-color: var(--light-beige)!important;
+}
+
+.bg-black {
+    background-color: var(--black)!important;
+}
+.bg-teal {
+    background-color: var(--teal)!important;
+}
+.bg-red {
+    background-color: var(--red)!important;
+}
+.text-black {
+    color: var(--black)!important;
+}
 .font-manrope {
     font-family: 'Manrope', sans-serif;
 }
@@ -7,11 +46,11 @@
 }
 
 .bg-red {
-    background-color: #E63946 !important;
+    background-color: var(--red) !important;
 }
 
 .border-red {
-    border-color: #E63946 !important;
+    border-color: var(--red) !important;
 }
 
 .bg-yellow {
@@ -26,8 +65,21 @@
     background-color: #1D3557;
 }
 
+
+.text-red {
+    color: var(--red);
+}
 @media (min-width: 1400px) {
     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-        max-width: 1200px;
+        max-width: 1150px;
     }
+}
+
+.cls-1 {
+    fill: var(--black);
+}
+
+#logo {
+    display: inline-block;
+    width: 80px;
 }

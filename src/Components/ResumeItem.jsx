@@ -12,7 +12,7 @@ const ResumeItem = (props) => {
                         </div>
                     </div>
                     <div>
-                        <span className='badge text-bg-success'>{props.data.type}</span>
+                        <span className='badge text-bg-success bg-teal'>{props.data.type}</span>
                     </div>
                 </div>
                 <div className='d-flex justify-content-between'>

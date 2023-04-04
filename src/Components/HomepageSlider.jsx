@@ -18,7 +18,7 @@ const HomepageSlider = () => {
     }, [firstLine, secondLine, thirdLine, firstButton])
     return (
         <div style={{ 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'height': '100vh' }}>
-            <div className="container px-3 px-lg-5">
+            <div className="container">
                 <div className="row">
                     <div className="col-lg-6 d-flex justify-content-center align-items-center order-lg-2 mb-5 mb-md-0">
                         <div>
@@ -28,9 +28,9 @@ const HomepageSlider = () => {
                     <div className="col-lg-6 d-flex flex-column justify-content-center order-lg-1">
                         <div className="font-manrope mb-2" ref={(el) => { firstLine = el }} style={{ 'fontSize': '40px', 'textAlign': 'left' }}>Hi,</div>
                         <div className="font-manrope fw-semibold mb-2" ref={(el) => { secondLine = el }} style={{ 'fontSize': '55px', 'textAlign': 'left' }}>I'm Abhi Rijal,</div>
-                        <div className="font-manrope mb-5" ref={(el) => { thirdLine = el }} style={{ 'fontSize': '24px', 'textAlign': 'left' }}>a software engineer specializing in full stack developement.</div>
+                        <div className="font-manrope mb-5" ref={(el) => { thirdLine = el }} style={{ 'fontSize': '24px', 'textAlign': 'left' }}>an aspiring software engineer looking for opportunites to learn, grow and contribute.</div>
                         <div className="d-flex mt-4">
-                            <Link to={'/about'} ref={(el) => { firstButton = el }} type="button" className="btn btn-primary bg-red border-red font-manrope rounded-pill fw-bold py-3 text-left" style={{ 'whiteSpace': 'nowrap' }}>know more</Link>
+                            <Link to={'/resume'} ref={(el) => { firstButton = el }} type="button" className="btn btn-primary bg-red border-red font-manrope rounded-pill fw-bold py-3 text-left" style={{ 'whiteSpace': 'nowrap' }}>My Story</Link>
                         </div>
                     </div>
                 </div>
