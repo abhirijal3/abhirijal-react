@@ -21,8 +21,13 @@ const HomepageSlider = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 d-flex justify-content-center align-items-center order-lg-2 mb-5 mb-md-0">
-                        <div>
+                        {/* Desktop */}
+                        <div className="d-none d-lg-block">
                             <img ref={(el) => { firstImg = el }} src="/me2.jpg" alt='Abhi Rijal' className="img-fluid rounded-circle mx-auto d-block" style={{ 'width': '500px', 'height': 'auto' }} />
+                        </div>
+                        {/* Mobile */}
+                        <div className="d-lg-none mt-5">
+                            <img src="/me2.jpg" alt='Abhi Rijal' className="img-fluid rounded-circle mx-auto d-block" style={{ 'width': '500px', 'height': 'auto' }} />
                         </div>
                     </div>
                     <div className="col-lg-6 d-flex flex-column justify-content-center order-lg-1">
@@ -30,7 +35,7 @@ const HomepageSlider = () => {
                         <div className="font-manrope fw-semibold mb-2" ref={(el) => { secondLine = el }} style={{ 'fontSize': '55px', 'textAlign': 'left' }}>I'm Abhi Rijal,</div>
                         <div className="font-manrope mb-5" ref={(el) => { thirdLine = el }} style={{ 'fontSize': '24px', 'textAlign': 'left' }}>an aspiring software engineer looking for opportunites to learn, grow and contribute.</div>
                         <div className="d-flex mt-4">
-                            <Link to={'/resume'} ref={(el) => { firstButton = el }} type="button" className="btn btn-primary bg-red border-red font-manrope rounded-pill fw-bold py-3 text-left" style={{ 'whiteSpace': 'nowrap' }}>My Story</Link>
+                            <Link to={'/resume'} ref={(el) => { firstButton = el }} type="button" className="btn btn-primary bg-red border-red font-manrope rounded-pill fw-bold py-3 text-left" style={{ 'whiteSpace': 'nowrap' }}>My story</Link>
                         </div>
                     </div>
                 </div>

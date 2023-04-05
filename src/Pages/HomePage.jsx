@@ -1,16 +1,16 @@
 import './HomePage.css';
 import Navbar from '../Components/Navbar'
 import HomepageSlider from '../Components/HomepageSlider';
-import { useEffect, useRef } from 'react';
-import { scrollSkills } from '../Components/Animate';
+// import { useEffect, useRef } from 'react';
+// import { scrollSkills } from '../Components/Animate';
 
 
 const HomePage = () => {
-    let skillsContainer = useRef(null);
+    // let skillsContainer = useRef(null);
 
-    useEffect(() => {
-        scrollSkills(skillsContainer)
-    }, [skillsContainer])
+    // useEffect(() => {
+    //     scrollSkills(skillsContainer)
+    // }, [skillsContainer])
 
     return (
         <div>

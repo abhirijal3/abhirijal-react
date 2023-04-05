@@ -18,7 +18,7 @@ const ProjectCard = () => {
                     </p>
                     <div>
                         <p className='d-flex align-items-center' data-bs-toggle="modal" data-bs-target="#exampleModal" style={{'cursor': 'pointer'}}>
-                            <span className='font-manrope fw-bold me-3'>See project</span>
+                            <span className='font-manrope fw-bold me-3' style={{'textDecoration': 'underline'}}>See project</span>
                             <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M16 12L8 12" stroke="#E96479" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M13 15L15.913 12.087V12.087C15.961 12.039 15.961 11.961 15.913 11.913V11.913L13 9" stroke="#E96479" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                         </p>
                     </div>

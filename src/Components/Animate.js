@@ -5,7 +5,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 const textIntro = (elem) => {
     let ctx = gsap.context(() => {
         gsap.from(elem, {
-            xPercent: -300,
+            xPercent: -100,
             opacity: 0,
             stagger: 0.2,
             duration: 1.5,
@@ -33,7 +33,7 @@ const buttonIntro = (elem) => {
 const imgIntro = (elem) => {
     let ctx = gsap.context(() => {
         gsap.from(elem, {
-            xPercent: +200,
+            xPercent: +80,
             opacity: 0,
             stagger: 0.2,
             duration: 1.5,
