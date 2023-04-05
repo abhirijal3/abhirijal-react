@@ -37,7 +37,8 @@ const Navbar = () => {
                     </svg>
                 </NavLink>
                 <button className="navbar-toggler border-0 shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
-                    <span className="navbar-toggler-icon"></span>
+                    {/* <span className="navbar-toggler-icon"></span> */}
+                    <i class={`fa-solid fa-bars fs-2 ${isPastElement ? 'text-white' : 'text-black'}`}></i>
                 </button>
                 <div className="offcanvas offcanvas-end bg-light-biege" tabIndex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
                     <div className="offcanvas-header">
