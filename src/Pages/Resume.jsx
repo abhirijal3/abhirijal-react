@@ -48,7 +48,7 @@ const Resume = () => {
                         </div>
                         <div className="collapse" id="collapseWidthExample0">
                             <div className="card card-body" style={{ 'border': 'none' }}>
-                                <p>
+                                <p className='mb-0'>
                                     <strong>Relevant courseworks:</strong><span> Data Structures & Algorithms, Software Engineering, Deep Learning, Operating Systems & Kerneles.</span>
                                 </p>
                             </div>
@@ -64,6 +64,7 @@ const Resume = () => {
                         <ResumeItem data={{ 'title': 'Full stack Developer', 'type': 'Part-Time', 'organization': 'Maptician, Inc.', 'location': 'Lincoln, NE', 'date': 'April 2022 - Present' }} />
                         <ResumeItem data={{ 'title': 'Web Applications Programmer', 'type': 'Part-Time', 'organization': 'Maptician, Inc.', 'location': 'Lincoln, NE', 'date': 'Nov 2021 - Present' }} />
                         <ResumeItem data={{ 'title': 'Web Applications QA Tester Intern', 'type': 'Part-Time', 'organization': 'ITS, University of Nebraska System', 'location': 'Lincoln, NE', 'date': 'Aug 2022 - Jan 2023' }} />
+                        <ResumeItem data={{ 'title': 'Software Developer', 'type': 'Part-Time', 'organization': 'Kathmandu International Mountain Film Festival', 'location': 'Kathmandu, Nepal', 'date': 'Apr 2019 - Apr 2022' }} />
                     </div>
                 </div>
             </div>

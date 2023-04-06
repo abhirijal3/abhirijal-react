@@ -18,7 +18,7 @@ const HomepageSlider = () => {
     }, [firstLine, secondLine, thirdLine, firstButton])
     return (
         <div style={{ 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'height': '100vh' }}>
-            <div className="container">
+            <div className="container pt-5">
                 <div className="row">
                     <div className="col-lg-6 d-flex justify-content-center align-items-center order-lg-2 mb-5 mb-md-0">
                         {/* Desktop */}
@@ -35,7 +35,7 @@ const HomepageSlider = () => {
                         <div className="font-manrope fw-semibold mb-2" ref={(el) => { secondLine = el }} style={{ 'fontSize': '55px', 'textAlign': 'left' }}>I'm Abhi Rijal,</div>
                         <div className="font-manrope mb-5" ref={(el) => { thirdLine = el }} style={{ 'fontSize': '24px', 'textAlign': 'left' }}>an aspiring software engineer looking for opportunites to learn, grow and contribute.</div>
                         <div className="d-flex mt-4">
-                            <Link to={'/resume'} ref={(el) => { firstButton = el }} type="button" className="btn btn-primary bg-red border-red font-manrope rounded-pill fw-bold py-3 text-left" style={{ 'whiteSpace': 'nowrap' }}>My story</Link>
+                            <Link to={'/about'} ref={(el) => { firstButton = el }} type="button" className="btn btn-primary bg-red border-red font-manrope rounded-pill fw-bold py-3 text-left" style={{ 'whiteSpace': 'nowrap' }}>My story</Link>
                         </div>
                     </div>
                 </div>

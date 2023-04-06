@@ -45,7 +45,7 @@ const ResumeItem = (props) => {
                             <li>Participate in sales meetings due to the ability to effectively prioritize and translate user needs into software solutions.</li>
                             <li>Test and document REST APIs in OpenAPI v3.0 format to ensure quality and to provide a standardized format for clients.</li>
                         </ul>
-                        <p>
+                        <p className='mb-0'>
                             <b className='me-2'>Skills:</b>
                             Node.js, jQuery, Express.js, AWS, MongoDB.
                         </p>

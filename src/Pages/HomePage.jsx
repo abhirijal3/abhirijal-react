@@ -1,6 +1,7 @@
 import './HomePage.css';
 import Navbar from '../Components/Navbar'
 import HomepageSlider from '../Components/HomepageSlider';
+import Footer from '../Components/Footer';
 // import { useEffect, useRef } from 'react';
 // import { scrollSkills } from '../Components/Animate';
 
@@ -16,6 +17,7 @@ const HomePage = () => {
         <div>
             <Navbar />
             <HomepageSlider />
+            <Footer/>
             {/* <div id="technicalSkills">
                 <div>
                     <div className='container-fluid' style={{ 'height': '100vh', 'padding': '100px' }} ref={(el) => { skillsContainer = el }}>

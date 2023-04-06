@@ -8,7 +8,7 @@ import Contact from './Pages/Contact';
 
 function App() {
   return (
-    <div>
+    <div className='position-relative'>
     <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<About />} />
