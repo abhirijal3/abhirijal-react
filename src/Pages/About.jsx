@@ -1,14 +1,7 @@
-import { useRef } from 'react';
 import Navbar from '../Components/Navbar';
 import './HomePage.css';
 
 const About = () => {
-    const workExperience = []
-    workExperience[0] = useRef(null);
-    workExperience[1] = useRef(null);
-    workExperience[2] = useRef(null);
-    workExperience[3] = useRef(null);
-    workExperience[4] = useRef(null);
     return (
         <div>
             <Navbar />

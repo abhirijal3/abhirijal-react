@@ -1,42 +1,42 @@
 const ResumeSkills = () => {
     return (
         <div>
-        <div className="container" style={{ 'padding-top': '100px', 'padding-bottom': '100px' }}>
+        <div className="container" style={{ 'paddingTop': '100px', 'paddingBottom': '100px' }}>
             <div className="mb-5">
-                <h2 className="font-manrope fw-semibold text-center" style={{ 'font-size': '41px' }}>Skills</h2>
+                <h2 className="font-manrope fw-semibold text-center" style={{ 'fontSize': '41px' }}>Skills</h2>
             </div>
             <div style={{ 'padding-left': '10%', 'padding-right': '10%' }}>
                 <table>
                     <tbody>
                         <tr>
-                            <td style={{ 'width': '30%', 'font-size': '21px' }} className="font-manrope fw-semibold py-4">
+                            <td style={{ 'width': '30%', 'fontSize': '21px' }} className="font-manrope fw-semibold py-4">
                                 Frontend:
                             </td>
-                            <td className="font-karla fw-medium py-4" style={{ 'font-size': '21px' }}>
+                            <td className="font-karla fw-medium py-4" style={{ 'fontSize': '21px' }}>
                                 HTML, CSS, JavaScript, Vue.js & Nuxt.js, Bootstrap & Tailwind CSS.
                             </td>
                         </tr>
                         <tr>
-                            <td style={{ 'width': '30%', 'font-size': '21px' }} className="font-manrope fw-semibold py-4">
+                            <td style={{ 'width': '30%', 'fontSize': '21px' }} className="font-manrope fw-semibold py-4">
                                 Backend:
                             </td>
-                            <td className="font-karla fw-medium py-4" style={{ 'font-size': '21px' }}>
+                            <td className="font-karla fw-medium py-4" style={{ 'fontSize': '21px' }}>
                                 Python, C#, PHP, MySQL & MariaDB, WordPress, Drupal.
                             </td>
                         </tr>
                         <tr>
-                            <td style={{ 'width': '30%', 'font-size': '21px' }} className="font-manrope fw-semibold py-4">
+                            <td style={{ 'width': '30%', 'fontSize': '21px' }} className="font-manrope fw-semibold py-4">
                                 Software Architectures:
                             </td>
-                            <td className="font-karla fw-medium py-4" style={{ 'font-size': '21px' }}>
+                            <td className="font-karla fw-medium py-4" style={{ 'fontSize': '21px' }}>
                                 RESTful APIs, MVC Frameworks, Frontend Frameworks, Game Development.
                             </td>
                         </tr>
                         <tr>
-                            <td style={{ 'width': '30%', 'font-size': '21px' }} className="font-manrope fw-semibold py-4">
+                            <td style={{ 'width': '30%', 'fontSize': '21px' }} className="font-manrope fw-semibold py-4">
                                 Miscellaneous:
                             </td>
-                            <td className="font-karla fw-medium py-4" style={{ 'font-size': '21px' }}>
+                            <td className="font-karla fw-medium py-4" style={{ 'fontSize': '21px' }}>
                                 AWS, Git, NGINX, Linux System Administration (Ubuntu), Figma, FFMPEG, CDN.
                             </td>
                         </tr>
@@ -47,7 +47,7 @@ const ResumeSkills = () => {
                 </div>
                 <div>
                     <div className="my-5">
-                        <h2 className="font-manrope fw-semibold" style={{ 'font-size': '30px' }}>the favorites.</h2>
+                        <h2 className="font-manrope fw-semibold" style={{ 'fontSize': '30px' }}>the favorites.</h2>
                     </div>
                     <div className='mb-5'>
                         <div className="row">
@@ -75,7 +75,7 @@ const ResumeSkills = () => {
                                     </g>
                                 </svg>
                             </div>
-                            <div class="col-2">
+                            <div className="col-2">
                                 <svg viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
                                     <g stroke-width="0"></g>
                                     <g stroke-linecap="round" stroke-linejoin="round"></g>
@@ -88,7 +88,7 @@ const ResumeSkills = () => {
                                     </g>
                                 </svg>
                             </div>
-                            <div class="col-2">
+                            <div className="col-2">
                                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <g stroke-width="0"></g>
                                     <g stroke-linecap="round" stroke-linejoin="round"></g>
@@ -106,7 +106,7 @@ const ResumeSkills = () => {
                         </div>
                     </div>
                     <div>
-                        <p className='font-karla' style={{ 'font-size': '14px' }}>The trademark logos displayed above are the property of their respective owners.</p>
+                        <p className='font-karla' style={{ 'fontSize': '14px' }}>The trademark logos displayed above are the property of their respective owners.</p>
                     </div>
                 </div>
             </div>
