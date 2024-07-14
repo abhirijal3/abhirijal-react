@@ -1,13 +1,13 @@
 :root {
-    --black: #4D455D;
+    /* --black: #4D455D; */
+    --black: #363041;
     --red: #E96479;
     --beige: #F5E9CF;
     --teal: #7DB9B6;
     --light-beige: #FAF3E4;
 }
 body {
-    background-color: var(--beige);
-    color: var(--black)
+    color: var(--black);
 }
 
 .card-body {
@@ -22,7 +22,7 @@ ul {
 }
 
 .bg-biege {
-    background-color: var(--beige);
+    background-color: var(--beige)!important;
 }
 
 .bg-light-biege {
@@ -85,5 +85,14 @@ ul {
 
 #logo {
     display: inline-block;
-    width: 80px;
+    width: 65px;
+}
+
+.about-me {
+    max-width: 700px;
+}
+
+.about-me p {
+    font-size: 20px;
+    line-height: 32px;
 }

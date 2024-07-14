@@ -6,7 +6,6 @@ const Navbar = () => {
     useEffect(() => {
         //Listening for page changes.
         document.body.style = "none";
-        // document.body.style.paddingTop = "90px";
     }, [location]);
 
     useEffect(() => {
@@ -25,7 +24,7 @@ const Navbar = () => {
         return () => window.removeEventListener("scroll", handleScroll);
     }, []);
     return (
-        <nav id="main-navbar" className={`navbar navbar-expand-lg fixed-top px-lg-5 ${isPastElement ? 'bg-black' : 'bg-beige'}`}>
+        <nav id="main-navbar" className={`navbar navbar-expand-lg fixed-top px-lg-5 ${isPastElement ? 'bg-black' : 'bg-biege'}`}>
             <div className="container">
                 <NavLink className={`navbar-brand text-black`} to={'/'}>
                     <svg id="logo" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="750 480 1000 1000">
@@ -48,19 +47,19 @@ const Navbar = () => {
                         <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                             {/* DESKTOP */}
                             <li className="nav-item me-lg-4 d-none d-lg-block">
-                                <NavLink className={`nav-link font-karla ${isPastElement ? 'text-white' : ''}`} style={{ 'fontSize': '19px' }} aria-current="page" to={'/'}>Home</NavLink>
+                                <NavLink className={`nav-link font-karla ${isPastElement ? 'text-white' : ''}`} style={{ 'fontSize': '16px' }} aria-current="page" to={'/'}>HOME</NavLink>
                             </li>
                             <li className="nav-item mx-lg-4 d-none d-lg-block">
-                                <NavLink className={`nav-link font-karla ${isPastElement ? 'text-white' : ''}`} style={{ 'fontSize': '19px' }} to={'/about'}>About</NavLink>
+                                <NavLink className={`nav-link font-karla ${isPastElement ? 'text-white' : ''}`} style={{ 'fontSize': '16px' }} to={'/about'}>ABOUT</NavLink>
                             </li>
                             <li className="nav-item mx-lg-4 d-none d-lg-block">
-                                <NavLink className={`nav-link font-karla ${isPastElement ? 'text-white' : ''}`} style={{ 'fontSize': '19px' }} to={'/resume'}>Resume</NavLink>
+                                <NavLink className={`nav-link font-karla ${isPastElement ? 'text-white' : ''}`} style={{ 'fontSize': '16px' }} to={'/resume'}>RESUME</NavLink>
                             </li>
                             <li className="nav-item mx-lg-4 d-none d-lg-block">
-                                <NavLink className={`nav-link font-karla ${isPastElement ? 'text-white' : ''}`} style={{ 'fontSize': '19px' }} to={'/projects'}>Projects</NavLink>
+                                <NavLink className={`nav-link font-karla ${isPastElement ? 'text-white' : ''}`} style={{ 'fontSize': '16px' }} to={'/projects'}>PROJECTS</NavLink>
                             </li>
                             <li className="nav-item ms-lg-4 d-none d-lg-block">
-                                <NavLink className={`nav-link font-karla ${isPastElement ? 'text-white' : ''}`} style={{ 'fontSize': '19px' }} to={'/contact'}>Contact</NavLink>
+                                <a className={`nav-link font-karla ${isPastElement ? 'text-white' : ''}`} style={{ 'fontSize': '16px' }} href="#contact">CONTACT</a>
                             </li>
                             <li className="nav-item ms-lg-5 d-lg-flex align-items-center d-none d-sm-none d-md-none">
                                 <a href="https://linkedin.com/in/abhirijal" target={"_blank"} rel={"noreferrer"}><i className={`fa-brands fa-linkedin fs-3 ${isPastElement ? 'text-white' : 'text-black'} `}></i></a>
@@ -70,19 +69,19 @@ const Navbar = () => {
                             </li>
                             {/* MOBILE */}
                             <li className="nav-item me-lg-4 d-lg-none">
-                                <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '19px' }} aria-current="page" to={'/'}>Home</NavLink>
+                                <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '16px' }} aria-current="page" to={'/'}>HOME</NavLink>
                             </li>
                             <li className="nav-item mx-lg-4 d-lg-none">
-                                <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '19px' }} to={'/about'}>About</NavLink>
+                                <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '16px' }} to={'/about'}>ABOUT</NavLink>
                             </li>
                             <li className="nav-item mx-lg-4 d-lg-none">
-                                <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '19px' }} to={'/resume'}>Resume</NavLink>
+                                <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '16px' }} to={'/resume'}>RESUME</NavLink>
                             </li>
                             <li className="nav-item mx-lg-4 d-lg-none">
-                                <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '19px' }} to={'/projects'}>Projects</NavLink>
+                                <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '16px' }} to={'/projects'}>PROJECTS</NavLink>
                             </li>
                             <li className="nav-item ms-lg-4 d-lg-none">
-                                <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '19px' }} to={'/contact'}>Contact</NavLink>
+                                <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '16px' }} to={'/contact'}>CONTACT</NavLink>
                             </li>
                             <li className="nav-item ms-lg-5 d-flex align-items-center d-lg-none">
                                 <a className="me-3 fs-2" href="https://linkedin.com/in/abhirijal" target={"_blank"} rel={"noreferrer"}><i className={`fa-brands fa-linkedin fs-3 ${isPastElement ? 'text-white' : 'text-black'} `}></i></a>

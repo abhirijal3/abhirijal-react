@@ -1,3 +1,4 @@
+import Footer from '../Components/Footer';
 import Navbar from '../Components/Navbar';
 import ProjectCard from '../Components/ProjectCard';
 import './Projects.css';
@@ -42,6 +43,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
+            <Footer/>
         </div>
     );
 }

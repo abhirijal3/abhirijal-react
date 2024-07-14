@@ -1,5 +1,6 @@
 import Navbar from '../Components/Navbar';
 import ResumeItem from '../Components/ResumeItem';
+import Footer from '../Components/Footer';
 import './HomePage.css';
 
 const Resume = () => {
@@ -16,14 +17,25 @@ const Resume = () => {
             skills: "Data Structures & Algorithms, Software Engineering, Deep Learning, Operating Systems & Kernels.",
         },
     ];
-    let resumeData = [
+    const resumeData = [
+        {
+            title: 'Software Engineer',
+            type: 'work',
+            time: 'Full-Time',
+            organization: 'Maptician, Inc.',
+            location: 'Washington, D.C.',
+            date: 'May 2023 - Present',
+            description: [
+            ],
+            skills: "JavaScript, Node.js, AWS, MongoDB, PWA, Azure"
+        },
         {
             title: 'Software Engineering Intern',
             type: 'work',
             time: 'Part-Time',
             organization: 'Maptician, Inc.',
             location: 'Lincoln, NE',
-            date: 'Jan 2023 - Present',
+            date: 'Jan 2023 - May 2023',
             description: [
                 "Accelerate the map creation process by 20% by engineering algorithms to automatically find the boundaries of polygon in a 2D shape and using profiling tools to speedup code execution.",
                 "Develop RESTful APIs using Express.js and MongoDB for a progressive web app used by 40,000+ users daily.",
@@ -98,21 +110,22 @@ const Resume = () => {
                 <h4 className='text-center'><button className='btn btn-dark font-karla bg-black'>Resume <i class="fa-solid fa-download ms-2"></i></button></h4>
                 <div className=''>
                     <div>
-                        <h2 className="font-manrope fw-semibold" style={{ 'fontSize': '41px' }}>Education</h2>
-                    </div>
-                    {schoolData.map((schoolItem) => {
-                        return (<div key="{schoolItem}"><ResumeItem data={schoolItem} /></div>)
-                    })}
-                </div>
-                <div className='my-5'>
-                    <div>
                         <h2 className="font-manrope fw-semibold" style={{ 'fontSize': '41px' }}>Work Experience</h2>
                     </div>
                     <div>
                         {resumeData.map((resumeItem, index) => <ResumeItem key={index} data={resumeItem}/>)}
                     </div>
                 </div>
+                <div className='my-5'>
+                    <div>
+                        <h2 className="font-manrope fw-semibold" style={{ 'fontSize': '41px' }}>Education</h2>
+                    </div>
+                    {schoolData.map((schoolItem) => {
+                        return (<div key="{schoolItem}"><ResumeItem data={schoolItem} /></div>)
+                    })}
+                </div>
             </div>
+            <Footer/>
         </div>
     );
 }
