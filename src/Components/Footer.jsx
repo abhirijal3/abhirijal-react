@@ -26,8 +26,15 @@ const Footer = () => {
         <div>
             <div className="container-xxl">
                 <hr/>
-                <div className="row py-5">
-                    <div id="contact" className="col">
+                <div className="row row-cols-1 row-cols-md-2 py-5">
+                <div className="col order-md-2">
+                        <div className="text-center py-3">
+                            <img src="/me2.jpg" alt='Abhi Rijal' className="mb-4 img-fluid rounded-circle mx-auto d-block" style={{ 'width': '200px', 'height': 'auto' }} />
+                            <p style={{color: '#2b2b2b'}}>Abhi Rijal</p>
+                            <p style={{color: '#1d1d1d4d'}}>abhirijal3@gmail.com</p>
+                        </div>
+                    </div>
+                    <div id="contact" className="col order-md-1">
                         <h2 className="font-manrope fw-900 mb-5">Contact Me</h2>
                         <form onSubmit={submitForm}>
                                 <div className="mb-3">
@@ -41,13 +48,6 @@ const Footer = () => {
                                 </div>
                                 {renderSubmitButton()}
                             </form>
-                    </div>
-                    <div className="col">
-                        <div className="text-center py-3">
-                            <img src="/me2.jpg" alt='Abhi Rijal' className="mb-4 img-fluid rounded-circle mx-auto d-block" style={{ 'width': '200px', 'height': 'auto' }} />
-                            <p style={{color: '#2b2b2b'}}>Abhi Rijal</p>
-                            <p style={{color: '#1d1d1d4d'}}>abhirijal3@gmail.com</p>
-                        </div>
                     </div>
                 </div>
             </div>

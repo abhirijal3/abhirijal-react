@@ -7,7 +7,7 @@ const Projects = () => {
     let projectData = [
         {
             title: "Fast Forward Navigation App",
-            thumbnail: "http://via.placeholder.com/640x450",
+            thumbnail: "https://placehold.co/600x400",
             category: [
                 "FRONTEND",
                 "BACKEND",

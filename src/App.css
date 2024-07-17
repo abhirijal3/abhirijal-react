@@ -10,9 +10,9 @@ body {
     color: var(--black);
 }
 
-.card-body {
+/* .card-body {
     background-color: var(--light-beige);
-}
+} */
 p {
     font-size: 18px;
 }

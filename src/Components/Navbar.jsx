@@ -81,7 +81,7 @@ const Navbar = () => {
                                 <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '16px' }} to={'/projects'}>PROJECTS</NavLink>
                             </li>
                             <li className="nav-item ms-lg-4 d-lg-none">
-                                <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '16px' }} to={'/contact'}>CONTACT</NavLink>
+                                <a className={`nav-link font-karla`} style={{ 'fontSize': '16px' }} href="#contact">CONTACT</a>
                             </li>
                             <li className="nav-item ms-lg-5 d-flex align-items-center d-lg-none">
                                 <a className="me-3 fs-2" href="https://linkedin.com/in/abhirijal" target={"_blank"} rel={"noreferrer"}><i className={`fa-brands fa-linkedin fs-3 ${isPastElement ? 'text-white' : 'text-black'} `}></i></a>

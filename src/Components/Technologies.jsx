@@ -31,7 +31,7 @@ const Technologies = () => {
             name: 'React',
             bgcolor: '#FFB3B3',
             svg: (
-                <svg width="65px" height="65px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                <svg className="technology_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                     <g strokeWidth="0"></g>
                     <g strokeLinecap="round" strokeLinejoin="round"></g>
                     <g>
@@ -48,7 +48,7 @@ const Technologies = () => {
             name: 'AWS',
             bgcolor: '#F0EFEE',
             svg: (
-                <svg width="65px" height="65px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <svg className="technology_svg" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="none">
                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                     <g id="SVGRepo_iconCarrier">
@@ -63,7 +63,7 @@ const Technologies = () => {
             name: 'Github',
             bgcolor: '#F2F5FD',
             svg: (
-                <svg width="65px" height="65px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                <svg className="technology_svg" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#000000">
                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                     <g id="SVGRepo_iconCarrier"> <title>github</title> <rect width="24" height="24" fill="none"></rect>
@@ -77,7 +77,7 @@ const Technologies = () => {
             name: 'JavaScript',
             bgcolor: '#020533',
             svg: (
-                <svg fill="#F9CD4B" width="65px" height="65px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <svg className="technology_svg" fill="#F9CD4B" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                     <g id="SVGRepo_iconCarrier"> <title>javascript</title> <path d="M17.313 14.789h-2.809c0 2.422-0.011 4.829-0.011 7.254 0.033 0.329 0.051 0.712 0.051 1.099 0 0.81-0.081 1.601-0.236 2.365l0.013-0.076c-0.412 0.861-1.475 0.751-1.957 0.6-0.451-0.242-0.808-0.609-1.031-1.055l-0.006-0.014c-0.044-0.094-0.097-0.174-0.16-0.246l0.001 0.001-2.281 1.406c0.367 0.79 0.934 1.434 1.637 1.885l0.018 0.011c0.763 0.427 1.675 0.678 2.645 0.678 0.484 0 0.954-0.063 1.401-0.18l-0.038 0.009c0.988-0.248 1.793-0.89 2.254-1.744l0.009-0.019c0.359-0.914 0.566-1.973 0.566-3.080 0-0.388-0.026-0.77-0.075-1.145l0.005 0.044c0.015-2.567 0-5.135 0-7.722zM28.539 23.843c-0.219-1.368-1.11-2.518-3.753-3.59-0.92-0.431-1.942-0.731-2.246-1.425-0.063-0.158-0.099-0.341-0.099-0.532 0-0.124 0.015-0.244 0.044-0.359l-0.002 0.010c0.208-0.55 0.731-0.935 1.343-0.935 0.199 0 0.388 0.040 0.559 0.113l-0.009-0.004c0.552 0.19 0.988 0.594 1.215 1.112l0.005 0.013c1.292-0.845 1.292-0.845 2.193-1.406-0.216-0.369-0.459-0.689-0.734-0.977l0.002 0.002c-0.767-0.814-1.852-1.32-3.056-1.32-0.171 0-0.34 0.010-0.505 0.030l0.020-0.002-0.881 0.111c-0.856 0.194-1.587 0.639-2.133 1.252l-0.003 0.004c-0.535 0.665-0.859 1.519-0.859 2.449 0 1.279 0.613 2.415 1.56 3.131l0.010 0.007c1.706 1.275 4.2 1.555 4.519 2.755 0.3 1.462-1.087 1.931-2.457 1.762-0.957-0.218-1.741-0.83-2.184-1.652l-0.009-0.017-2.287 1.313c0.269 0.536 0.607 0.994 1.011 1.385l0.001 0.001c2.174 2.194 7.61 2.082 8.586-1.255 0.113-0.364 0.178-0.782 0.178-1.215 0-0.3-0.031-0.593-0.091-0.875l0.005 0.028zM1.004 1.004h29.991v29.991h-29.991z"></path> 
@@ -89,7 +89,7 @@ const Technologies = () => {
             name: 'Docker',
             bgcolor: '#FFF7E8',
             svg: (
-                <svg fill="#000000" width="65px" height="65px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <svg className="technology_svg" fill="#000000" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                     <g id="SVGRepo_iconCarrier"> <title>docker</title> <path d="M30.679 13.367c-0.613-0.404-1.366-0.645-2.175-0.645-0.093 0-0.185 0.003-0.276 0.009l0.012-0.001c-0.446 0.001-0.882 0.041-1.306 0.115l0.046-0.007c-0.235-1.357-1.025-2.495-2.122-3.191l-0.019-0.011-0.429-0.248-0.282 0.408c-0.336 0.512-0.599 1.108-0.756 1.745l-0.008 0.039c-0.089 0.324-0.14 0.696-0.14 1.080 0 0.831 0.24 1.605 0.654 2.258l-0.010-0.017c-0.637 0.299-1.381 0.488-2.164 0.524l-0.013 0h-19.729c-0.516 0.001-0.934 0.418-0.936 0.933v0c-0.001 0.056-0.001 0.123-0.001 0.19 0 1.751 0.317 3.428 0.897 4.977l-0.032-0.098c0.558 1.633 1.612 2.975 2.98 3.881l0.028 0.017c1.744 0.903 3.808 1.432 5.995 1.432 0.207 0 0.412-0.005 0.617-0.014l-0.029 0.001c0.018 0 0.039 0 0.060 0 1.272 0 2.515-0.121 3.72-0.352l-0.123 0.020c1.795-0.336 3.395-0.939 4.845-1.773l-0.074 0.039c1.257-0.735 2.331-1.621 3.245-2.652l0.012-0.014c1.325-1.56 2.403-3.381 3.145-5.365l0.041-0.125h0.276c0.055 0.002 0.119 0.004 0.183 0.004 1.226 0 2.34-0.481 3.163-1.265l-0.002 0.002c0.377-0.358 0.676-0.793 0.873-1.281l0.009-0.024 0.122-0.359zM3.79 14.849h2.646c0.127-0.001 0.23-0.104 0.23-0.231 0 0 0 0 0 0v0-2.355c0-0 0-0.001 0-0.001 0-0.127-0.103-0.23-0.23-0.231h-2.646c-0.127 0.001-0.23 0.104-0.23 0.231v0 2.356c0 0 0 0 0 0.001 0 0.127 0.103 0.23 0.23 0.23 0 0 0 0 0.001 0h-0zM7.434 14.849h2.644c0.127 0 0.231-0.103 0.231-0.231 0 0 0 0 0-0v0-2.355c0-0 0-0.001 0-0.001 0-0.127-0.103-0.23-0.23-0.231h-2.646c-0 0-0 0-0 0-0.128 0-0.232 0.104-0.232 0.232 0 0 0 0 0 0v0 2.355c0.001 0.128 0.104 0.231 0.232 0.231v0zM11.132 14.849h2.646c0.127-0.001 0.23-0.104 0.23-0.231 0 0 0 0 0 0v0-2.355c0-0 0-0.001 0-0.001 0-0.127-0.103-0.23-0.23-0.231h-2.646c-0.127 0.001-0.23 0.104-0.23 0.231v0 2.356c0 0.127 0.103 0.231 0.231 0.231v0zM14.788 14.849h2.643c0 0 0 0 0 0 0.128 0 0.231-0.103 0.232-0.231v-2.355c0-0 0-0 0-0 0-0.128-0.104-0.232-0.232-0.232-0 0-0 0-0 0h-2.643c-0.127 0-0.231 0.103-0.231 0.231v0 2.356c0 0 0 0 0 0.001 0 0.127 0.103 0.23 0.23 0.23 0 0 0 0 0.001 0h-0zM7.434 11.461h2.644c0.128-0.001 0.231-0.104 0.231-0.232 0 0 0 0 0 0v0-2.355c0 0 0 0 0-0 0-0.127-0.103-0.231-0.231-0.231h-2.644c-0.128 0-0.231 0.103-0.232 0.231v2.355c0.001 0.128 0.104 0.231 0.232 0.232h0zM11.132 11.461h2.646c0.127-0.001 0.23-0.105 0.23-0.232v0-2.355c0 0 0 0 0-0 0-0.127-0.103-0.231-0.231-0.231h-2.643c-0.127 0-0.231 0.103-0.231 0.231 0 0 0 0 0 0v0 2.355c0.001 0.128 0.103 0.231 0.231 0.232h0zM14.788 11.461h2.643c0.128-0.001 0.231-0.104 0.232-0.232v-2.355c-0.001-0.128-0.104-0.231-0.232-0.231h-2.643c-0.127 0-0.231 0.103-0.231 0.231 0 0 0 0 0 0v0 2.355c0 0.128 0.103 0.231 0.231 0.232h0zM14.788 8.073h2.643c0 0 0 0 0 0 0.128 0 0.232-0.104 0.232-0.232 0-0 0-0 0-0v0-2.356c-0.001-0.128-0.104-0.231-0.232-0.231 0 0-0 0-0 0h-2.643c-0.127 0-0.231 0.103-0.231 0.231v0 2.356c0 0 0 0 0 0.001 0 0.127 0.103 0.23 0.23 0.23 0 0 0 0 0.001 0h-0zM18.475 14.849h2.644c0 0 0 0 0 0 0.128 0 0.231-0.103 0.232-0.231v-2.355c0-0 0-0 0-0 0-0.128-0.104-0.232-0.232-0.232-0 0-0 0-0 0h-2.644c0 0 0 0-0 0-0.128 0-0.231 0.103-0.231 0.231v2.356c0 0.127 0.103 0.231 0.231 0.231v0z"></path> 
@@ -101,7 +101,7 @@ const Technologies = () => {
             name: 'HTML5',
             bgcolor: '#A9A9A9',
             svg: (
-                <svg fill="#fff" width="64px" height="64px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
+                <svg className="technology_svg" fill="#fff" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                     <g id="SVGRepo_iconCarrier">
@@ -114,7 +114,7 @@ const Technologies = () => {
             name: 'CSS',
             bgcolor: '#32309A',
             svg: (
-                <svg height="64px" width="64px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff" stroke="#fff">
+                <svg className="technology_svg" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="#fff" stroke="#fff">
                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                     <g id="SVGRepo_iconCarrier"><g>
@@ -128,7 +128,7 @@ const Technologies = () => {
             name: 'MySQL',
             bgcolor: '#687FA5',
             svg: (
-            <svg fill="#fff" width="64px" height="64px" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
+            <svg className="technology_svg" fill="#fff" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
                 <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                 <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                 <g id="SVGRepo_iconCarrier">
@@ -142,7 +142,7 @@ const Technologies = () => {
             name: 'Nginx',
             bgcolor: '#000000',
             svg: (
-                <svg fill="#fff" width="64px" height="64px" viewBox="-1.5 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
+                <svg className="technology_svg" fill="#fff" viewBox="-1.5 0 24 24" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                     <g id="SVGRepo_iconCarrier">
@@ -156,7 +156,7 @@ const Technologies = () => {
             name: 'Java',
             bgcolor: '#FF79C9',
             svg: (
-                <svg fill="#fff" width="64px" height="64px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
+                <svg className="technology_svg" fill="#fff" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" stroke="#fff">
                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                     <g id="SVGRepo_iconCarrier"> <title>java</title>
@@ -170,7 +170,7 @@ const Technologies = () => {
             name: 'Ubuntu',
             bgcolor: '#DEDEFF',
             svg: (
-                <svg fill="#493BD2" width="64px" height="64px" viewBox="-5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                <svg className="technology_svg" fill="#493BD2" viewBox="-5 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg">
                     <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
                     <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
                     <g id="SVGRepo_iconCarrier"> <title>ubuntu</title>
@@ -183,8 +183,8 @@ const Technologies = () => {
     ];
     return (
         <div id="technicalSkills">
-            <div className='container-xxl' style={{ paddingTop: 50, paddingBottom: 50 }} ref={(el) => { skillsContainer = el }}>
-                <div className='row row-cols-1 row-cols-md-2 row-cols-lg-5 mb-5'>
+            <div className='container-xxl d-none d-md-block' style={{ paddingTop: 50, paddingBottom: 50 }} ref={(el) => { skillsContainer = el }}>
+                <div className='row row-cols-md-5 mb-5'>
                     {skillsData.slice(0,5).map((skill) => <TechnologiesCard key={skill.name} bgcolor={skill.bgcolor} svg={skill.svg} />)}
                 </div>
                 <div className='row px-5 mb-5'>
@@ -202,8 +202,18 @@ const Technologies = () => {
                         <TechnologiesCard bgcolor={skillsData[6].bgcolor} svg={skillsData[6].svg} />
                     </div>
                 </div>
-                <div className='row row-cols-1 row-cols-md-2 row-cols-lg-5 mb-5'>
+                <div className='row row-cols-md-5 mb-5'>
                     {skillsData.slice(7,12).map((skill) => <TechnologiesCard key={skill.name} bgcolor={skill.bgcolor} svg={skill.svg} />)}
+                </div>
+            </div>
+            <div className='container-xxl d-block d-md-none' style={{ paddingTop: 50, paddingBottom: 50 }}>
+                <div className='text-center'>
+                            <h2 className="font-manrope fw-medium text-center mb-1" style={{ 'fontSize': '31px' }}>technologies I'm familiar with.</h2>
+                            <p className='text-center mb-4' style={{color: '#bbbbbb'}}>(and more)</p>
+                            <Link type="button d-block mx-auto" className="btn btn-danger bg-red border-red font-manrope fw-semibold rounded-pill px-4 py-3" style={{ 'whiteSpace': 'nowrap', 'fontSize': '18px' }} to={'/projects'}>view all</Link>
+                </div>
+                <div className='row row-cols-2 mb-5'>
+                    {skillsData.map((skill) => <TechnologiesCard key={skill.name} bgcolor={skill.bgcolor} svg={skill.svg} />)}
                 </div>
             </div>
         </div>

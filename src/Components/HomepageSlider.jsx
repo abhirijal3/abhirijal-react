@@ -17,7 +17,7 @@ const HomepageSlider = () => {
         imgIntro(firstImg)
     }, [firstLine, secondLine, thirdLine, firstButton])
     return (
-        <div className="bg-biege" style={{ 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'height': '100vh' }}>
+        <div className="bg-biege pb-5" style={{ 'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'min-height': '100vh' }}>
             <div className="container pt-5">
                 <div className="row">
                     <div className="col-lg-6 d-flex justify-content-center align-items-center order-lg-2 mb-5 mb-md-0">

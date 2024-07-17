@@ -1,0 +1,30 @@
+.skill_title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 32px;
+}
+
+.skill_desc {
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.resume_seperator {
+  height: 3px;
+  background-color: #363041;
+  opacity: 1;
+  margin-bottom: 0px;
+}
+
+.resume_date {
+  background-color: #363041;
+  color: #ffffff;
+  font-size: 16px;
+  /* border-radius: 0px 0px 15px 15px; */
+}
+
+.resume_time {
+  font-weight: 500;
+  font-size: 12px;
+  background-color: #363041;
+}

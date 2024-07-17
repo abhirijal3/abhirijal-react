@@ -1,3 +1,4 @@
+// Not used right now.
 const ResumeSkills = () => {
     return (
         <div>
