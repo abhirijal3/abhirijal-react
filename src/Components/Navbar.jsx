@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 const Navbar = () => {
     const location = useLocation;
-    const [isPastElement, setIsPastElement] = useState(false);
+    const [isPastElement, setIsPastElement] = useState(true);
     useEffect(() => {
         //Listening for page changes.
         document.body.style = "none";
@@ -12,11 +12,11 @@ const Navbar = () => {
         const handleScroll = () => {
             const scrollPosition = window.scrollY;
             const elementPosition = document.getElementById("main-navbar").offsetTop;
-            if (scrollPosition > elementPosition) {
-                setIsPastElement(true);
-            } else {
-                setIsPastElement(false);
-            }
+            // if (scrollPosition > elementPosition) {
+            //     setIsPastElement(true);
+            // } else {
+            //     setIsPastElement(false);
+            // }
         };
 
         window.addEventListener("scroll", handleScroll);
