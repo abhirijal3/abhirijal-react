@@ -193,9 +193,9 @@ const Technologies = () => {
                     </div>
                     <div className='col-6 d-flex justify-content-center align-items-center'>
                         <div className='text-center'>
-                            <h2 className="font-manrope fw-medium text-center mb-1" style={{ 'fontSize': '31px' }}>technologies I work with.</h2>
+                            <h2 className="font-manrope fw-medium text-center mb-1" style={{ 'fontSize': '31px' }}>technologies we work with.</h2>
                             <p className='text-center mb-4' style={{color: '#bbbbbb'}}>(and more)</p>
-                            <Link type="button d-block mx-auto" className="btn btn-danger bg-red border-red font-manrope fw-semibold rounded-pill px-4 py-3" style={{ 'whiteSpace': 'nowrap', 'fontSize': '18px' }} to={'/projects'}>view all</Link>
+                            {/* <Link type="button d-block mx-auto" className="btn btn-danger bg-red border-red font-manrope fw-semibold rounded-pill px-4 py-3" style={{ 'whiteSpace': 'nowrap', 'fontSize': '18px' }} to={'/projects'}>view all</Link> */}
                         </div>
                     </div>
                     <div className='col-3'>
