@@ -52,21 +52,21 @@ const Navbar = () => {
                             <li className="nav-item mx-lg-4 d-none d-lg-block">
                                 <NavLink className={`nav-link font-karla ${isPastElement ? 'text-white' : ''}`} style={{ 'fontSize': '16px' }} to={'/about'}>ABOUT</NavLink>
                             </li>
-                            <li className="nav-item mx-lg-4 d-none d-lg-block">
+                            {/* <li className="nav-item mx-lg-4 d-none d-lg-block">
                                 <NavLink className={`nav-link font-karla ${isPastElement ? 'text-white' : ''}`} style={{ 'fontSize': '16px' }} to={'/resume'}>RESUME</NavLink>
-                            </li>
-                            <li className="nav-item mx-lg-4 d-none d-lg-block">
+                            </li> */}
+                            {/* <li className="nav-item mx-lg-4 d-none d-lg-block">
                                 <NavLink className={`nav-link font-karla ${isPastElement ? 'text-white' : ''}`} style={{ 'fontSize': '16px' }} to={'/projects'}>PROJECTS</NavLink>
-                            </li>
+                            </li> */}
                             <li className="nav-item ms-lg-4 d-none d-lg-block">
                                 <a className={`nav-link font-karla ${isPastElement ? 'text-white' : ''}`} style={{ 'fontSize': '16px' }} href="#contact">CONTACT</a>
                             </li>
-                            <li className="nav-item ms-lg-5 d-lg-flex align-items-center d-none d-sm-none d-md-none">
+                            {/* <li className="nav-item ms-lg-5 d-lg-flex align-items-center d-none d-sm-none d-md-none">
                                 <a href="https://linkedin.com/in/abhirijal" target={"_blank"} rel={"noreferrer"}><i className={`fa-brands fa-linkedin fs-3 ${isPastElement ? 'text-white' : 'text-black'} `}></i></a>
                             </li>
                             <li className="nav-item ms-lg-4 d-lg-flex align-items-center d-none d-sm-none d-md-none">
                                 <a href="https://github.com/abhirijal" target={"_blank"} rel={"noreferrer"}><i className={`fa-brands fa-github fs-3 ${isPastElement ? 'text-white' : 'text-black'} `}></i></a>
-                            </li>
+                            </li> */}
                             {/* MOBILE */}
                             <li className="nav-item me-lg-4 d-lg-none">
                                 <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '16px' }} aria-current="page" to={'/'}>HOME</NavLink>
@@ -74,19 +74,19 @@ const Navbar = () => {
                             <li className="nav-item mx-lg-4 d-lg-none">
                                 <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '16px' }} to={'/about'}>ABOUT</NavLink>
                             </li>
-                            <li className="nav-item mx-lg-4 d-lg-none">
+                            {/* <li className="nav-item mx-lg-4 d-lg-none">
                                 <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '16px' }} to={'/resume'}>RESUME</NavLink>
                             </li>
                             <li className="nav-item mx-lg-4 d-lg-none">
                                 <NavLink className={`nav-link font-karla`} style={{ 'fontSize': '16px' }} to={'/projects'}>PROJECTS</NavLink>
-                            </li>
+                            </li> */}
                             <li className="nav-item ms-lg-4 d-lg-none">
                                 <a className={`nav-link font-karla`} style={{ 'fontSize': '16px' }} href="#contact">CONTACT</a>
                             </li>
-                            <li className="nav-item ms-lg-5 d-flex align-items-center d-lg-none">
+                            {/* <li className="nav-item ms-lg-5 d-flex align-items-center d-lg-none">
                                 <a className="me-3 fs-2" href="https://linkedin.com/in/abhirijal" target={"_blank"} rel={"noreferrer"}><i className={`fa-brands fa-linkedin fs-3 ${isPastElement ? 'text-white' : 'text-black'} `}></i></a>
                                 <a className="fs-2" href="https://github.com/abhirijal" target={"_blank"} rel={"noreferrer"}><i className={`fa-brands fa-github fs-3 ${isPastElement ? 'text-white' : 'text-black'} `}></i></a>
-                            </li>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

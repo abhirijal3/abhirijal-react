@@ -23,19 +23,19 @@ const HomepageSlider = () => {
                     <div className="col-lg-6 d-flex justify-content-center align-items-center order-lg-2 mb-5 mb-md-0">
                         {/* Desktop */}
                         <div className="d-none d-lg-block">
-                            <img ref={(el) => { firstImg = el }} src="/me2.jpg" alt='Abhi Rijal' className="img-fluid rounded-circle mx-auto d-block" style={{ 'width': '500px', 'height': 'auto' }} />
+                            <img ref={(el) => { firstImg = el }} src="/cg.webp" alt='Abhi Rijal' className="img-fluid rounded-circle mx-auto d-block" style={{ 'width': '500px', 'height': 'auto' }} />
                         </div>
                         {/* Mobile */}
                         <div className="d-lg-none mt-5">
-                            <img src="/me2.jpg" alt='Abhi Rijal' className="img-fluid rounded-circle mx-auto d-block" style={{ 'width': '500px', 'height': 'auto' }} />
+                            <img src="/cg.webp" alt='Abhi Rijal' className="img-fluid rounded-circle mx-auto d-block" style={{ 'width': '500px', 'height': 'auto' }} />
                         </div>
                     </div>
                     <div className="col-lg-6 d-flex flex-column justify-content-center order-lg-1">
-                        <div className="font-manrope mb-2" ref={(el) => { firstLine = el }} style={{ 'fontSize': '40px', 'textAlign': 'left' }}>Hi,</div>
-                        <div className="font-manrope fw-semibold mb-2" ref={(el) => { secondLine = el }} style={{ 'fontSize': '55px', 'textAlign': 'left' }}>I'm Abhi Rijal,</div>
-                        <div className="font-manrope mb-5" ref={(el) => { thirdLine = el }} style={{ 'fontSize': '24px', 'textAlign': 'left' }}>a nature-loving lifelong learner and tech enthusiast, committed to engineering his life and software for a better future, one byte at a time.</div>
+                        <div className="font-manrope mb-2" ref={(el) => { firstLine = el }} style={{ 'fontSize': '40px', 'textAlign': 'left' }}>Welcome Nepal,</div>
+                        <div className="font-manrope fw-semibold mb-2" ref={(el) => { secondLine = el }} style={{ 'fontSize': '55px', 'textAlign': 'left' }}>Experience Cloud Gaming Redefined,</div>
+                        <div className="font-manrope mb-5" ref={(el) => { thirdLine = el }} style={{ 'fontSize': '24px', 'textAlign': 'left' }}>Unlock immersive gameplay from anywhere. We deliver seamless, high-performance gaming directly to you—no hardware limitations, just pure adventure.</div>
                         <div className="d-flex mt-4">
-                            <Link to={'/about'} ref={(el) => { firstButton = el }} type="button" className="btn btn-primary bg-red border-red font-manrope rounded-pill fw-bold py-3 text-left" style={{ 'whiteSpace': 'nowrap' }}>my story <i className="fa-solid fa-arrow-right text-light"></i></Link>
+                            <Link to={'/about'} ref={(el) => { firstButton = el }} type="button" className="btn btn-primary bg-red border-red font-manrope rounded-pill fw-bold py-3 text-left" style={{ 'whiteSpace': 'nowrap' }}>Learn more <i className="fa-solid fa-arrow-right text-light"></i></Link>
                         </div>
                     </div>
                 </div>

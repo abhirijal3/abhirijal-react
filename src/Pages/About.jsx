@@ -8,17 +8,18 @@ const About = () => {
             <Navbar />
             <div className='container-xxl about-me' style={{ paddingTop: '80px', paddingBottom: '20px' }}>
                 <div>
-                    <h1 className="font-manrope fw-bold mt-5" style={{ fontSize: '42px' }}>About Me</h1>
+                    <h1 className="font-manrope fw-bold mt-5" style={{ fontSize: '42px' }}>About Us</h1>
                 </div>
                 <div className='my-4'>
-                    <p>Hi, I'm Abhi Rijal, an aspiring software engineer from the breathtaking Himalayas. I'm currently a Software Engineer Intern at Maptician, Inc.</p>
-                    <p>I grew up in Kathmandu, the vibrant capital city of Nepal. My journey into coding began in grade 6 when I created my first simple HTML website. By the age of 16, I had landed my first job, marking the start of my professional adventure.</p>
-                    <p>A lifelong learner, I thrive on reflection and improvement. I'm an avid growth seeker who believes in the power of listening, sharing, and connecting with people.</p>
-                    <p>In 2021, I embarked on a new chapter, moving from Nepal to the USA to pursue a Bachelor's degree in Computer Science at the University of Nebraska-Lincoln. After my graduation in August 2023, I’m working and rocking as a full-time at Maptician, where I began as an intern.</p>
-                    <p>At Maptician, we make work environments smarter and more efficient. My fascination with technology, ignited by my first line of code at age 13, continues to drive my curiosity and passion for innovation.</p>
+                    <p>Welcome to the future of gaming in Nepal! Our mission is to bring high-performance cloud gaming to gamers across the country, breaking hardware barriers and redefining how games are experienced.</p>
+                    <p>Founded with a passion for innovation and gaming excellence, we aim to make world-class gaming accessible to everyone, from the bustling streets of Kathmandu to the serene mountain towns of the Himalayas.</p>
+                    <p>Our platform allows gamers to stream and play their favorite titles without the need for high-end devices. Whether you're on a laptop, smartphone, or tablet, you can dive into immersive gameplay instantly.</p>
+                    <p>We believe that gaming is more than just entertainment—it’s a way to connect, compete, and create. That’s why our technology is designed to offer low latency, high resolution, and an unparalleled gaming experience, even on limited internet connections.</p>
+                    <p>Join us as we transform Nepal’s gaming landscape, providing cutting-edge cloud technology and limitless adventures for gamers of all ages and skill levels.</p>
                 </div>
+
             </div>
-            <Footer/>
+            <Footer />
         </div>
     );
 }
